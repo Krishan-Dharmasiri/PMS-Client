@@ -5,4 +5,13 @@
   </ul>
 </nav>
 
+<mat-menu #appMenu="matMenu">
+    <button mat-menu-item >Dashboard</button>
+    <button mat-menu-item>Investor</button>
+</mat-menu>
+
+<button mat-icon-button [matMenuTriggerFor]="appMenu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+
 <router-outlet></router-outlet>
