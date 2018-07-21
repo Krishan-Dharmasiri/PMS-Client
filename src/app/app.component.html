@@ -1,17 +1,20 @@
-<nav>
-  <ul>
-    <li><a href="" [routerLink]="['/dashboard']">Dashboard</a></li>
-    <li><a href="" [routerLink]="['/investor']">Investor</a></li>
-  </ul>
+<nav class="navbar navbar-dark bg-dark mb-5">
+    <a class="navbar-brand" href="/">Portfolio Management System</a>
+    <div class="navbar-expand mr-auto">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="" [routerLink]="['/dashboard']">Dashboard</a>
+            <a class="nav-item nav-link" href="" [routerLink]="['/investor']">Investor</a>
+        </div>
+    </div>   
 </nav>
 
-<mat-menu #appMenu="matMenu">
+<!-- <mat-menu #appMenu="matMenu">
     <button mat-menu-item >Dashboard</button>
     <button mat-menu-item>Investor</button>
 </mat-menu>
 
 <button mat-icon-button [matMenuTriggerFor]="appMenu">
     <mat-icon>more_vert</mat-icon>
-  </button>
+  </button> -->
 
 <router-outlet></router-outlet>
