@@ -1,0 +1,12 @@
+<div class="container">
+  <ul class="nav nav-tabs">
+     <li *ngFor="let t of _tabs"><a data-toggle="tab" [href]="t.tabId">{{t.tabName}}</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade" *ngFor="let t of _tabs" [id]="t.tabId.substr(1)">
+        Tab Content : {{t.tabName}}
+    </div>
+  </div>
+</div>
+
+

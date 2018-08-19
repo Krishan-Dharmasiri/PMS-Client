@@ -9,13 +9,17 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { InvestorComponent } from './investor/investor.component';
 import { LineChartComponent } from './Components/line-chart/line-chart.component';
+import { TabsComponent } from './Components/tabs/tabs.component';
+import { TabComponent } from './Components/tab/tab.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     InvestorComponent,
-    LineChartComponent
+    LineChartComponent,
+    TabsComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,

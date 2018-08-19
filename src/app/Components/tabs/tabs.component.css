@@ -1,0 +1,11 @@
+.tab-formatter{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}

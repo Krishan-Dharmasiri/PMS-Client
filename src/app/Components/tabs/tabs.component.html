@@ -1,0 +1,4 @@
+<ul class="nav nav-tabs">
+  <li *ngFor="let tab of _tabs" (click)="selectTab(tab)" class="tab-formatter">{{tab.tabTitle}}</li>  
+</ul>
+<ng-content></ng-content>
